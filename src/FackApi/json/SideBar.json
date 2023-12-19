@@ -1,0 +1,117 @@
+[
+  {
+    "title": "Dashboard",
+    "name": "sidebar.dashboard",
+    "is_heading": true,
+    "is_active": false,
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": ""
+  },
+  {
+    "title": "Video Chat",
+    "name": "sidebar.videoChat",
+    "is_heading": false,
+    "is_active": false,
+    "link": {
+      "name": "app.chat"
+    },
+    "append": "Excusive",
+    "append_class": "badge badge-danger float-right font-weight-normal ml-auto",
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-message-line"
+  },
+  {
+    "title": "Project Management",
+    "name": "sidebar.projectManagement",
+    "is_heading": false,
+    "is_active": false,
+    "link": {
+      "name": "app.project.management"
+    },
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-terminal-window-line"
+  },
+  {
+    "title": "Calendar",
+    "name": "sidebar.calendar",
+    "is_heading": false,
+    "is_active": false,
+    "link": {
+      "name": "app.calendar"
+    },
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-calendar-2-line"
+  },
+  {
+    "title": "Governorates",
+    "name": "governorates",
+    "is_heading": false,
+    "is_active": false,
+    "link": {
+      "name": "app.governorates"
+    },
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-building-line"
+  },
+  {
+    "title": "User",
+    "name": "sidebar.user",
+    "is_heading": false,
+    "is_active": false,
+    "link": "",
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-user-line",
+    "children": [
+      {
+        "title": "Users List",
+        "name": "Users List",
+        "is_active": false,
+        "link": {
+          "name": "app.users"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-profile-line"
+      },
+      {
+        "title": "Permissions",
+        "name": "Permissions",
+        "is_active": false,
+        "link": {
+          "name": "app.permissions"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-profile-line"
+      },
+      {
+        "title": "Roles",
+        "name": "Roles",
+        "is_active": false,
+        "link": {
+          "name": "app.roles"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-profile-line"
+      },
+      {
+        "title": "User Profile",
+        "name": "sidebar.userProfile",
+        "is_active": false,
+        "link": {
+          "name": "user.profile"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-profile-line"
+      }
+    ]
+  }
+]

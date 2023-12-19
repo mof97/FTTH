@@ -1,0 +1,16 @@
+.d-grid {
+    display: grid;
+}
+
+.feild {
+    margin-bottom: 10px;
+}
+
+.actions-list {
+    gap: 5px;
+}
+
+.vs__search {
+    padding: 0.375rem 0.75rem;
+    ;
+}
